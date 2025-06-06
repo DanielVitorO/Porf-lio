@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(99, 98, 98);
+}
+
+.logo-image{ 
+    width: 450px;
+    height: 450px;
+    margin-left: 50px;
+    display: inline-block;
+}
+ 
+section{
+    display: inline-block;
+    width: 800px;
+    margin-left: 40px;
+}
+
+header {
+    margin: 44px 0 100px 76px ;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    flex: 1 1 45%;
+    padding: 2em;
+}
+
+.link-header:hover{
+    color: white;
+}
+
+
+.button-header{
+    color: black;
+    cursor: pointer;
+    background: rgb(40, 40, 148);
+    border-radius: 25.5px;
+    width: 100px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.button-header:hover{
+    color:white;
+    background: rgb(51, 51, 187);
+}
+
+h1{
+font-weight: 900;
+font-size: 100px;
+line-height: 122px;
+width: 700px;
+
+}
+
+h2{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 71px;
+    text-align: justify;
+    width:700px ;
+}
+
+.p-section{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 700px;
+    margin-top: 32px;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+
+.button-main{
+    border-radius: 25.5px;
+    width: 180px;
+    height: 70px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: none;
+    background: rgb(94, 34, 34);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.button-main:hover{
+    color:rgb(56, 42, 42) ;
+    background: rgb(139, 50, 50);;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os links de navegação */
+footer nav a {
+    color: #ccc;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #fff;
+}
+
+/* Estilos para as redes sociais */
+.social-links a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #fff;}
